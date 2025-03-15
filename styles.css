@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('carl-raw-m3hn2Kn5Bns-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.progress-container {
+    width: 90%; 
+    height: 8px; 
+    background: #ddd;
+    border-radius: 5px;
+    margin: 10px auto; 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.3s ease-in-out;
+}
+
+.weak { background: red; }
+.moderate { background: orange; }
+.strong { background: green; }
